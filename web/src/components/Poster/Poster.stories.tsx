@@ -26,5 +26,35 @@ const Template = (args) => <Poster {...args} />
 export const Primary = Template.bind({})
 Primary.args = {
   src: missing,
-  alt: 'Hocus Pocus',
+  alt: 'Missing',
+}
+
+export const Large = Template.bind({})
+Large.args = {
+  src: missing,
+  alt: 'Missing',
+  size: 'large',
+}
+
+// make medium size the default like above
+export const Medium = Template.bind({})
+Medium.args = {
+  src: missing,
+  alt: 'Missing',
+  size: 'medium',
+}
+
+export const Small = Template.bind({})
+Small.args = {
+  src: missing,
+  alt: 'Missing',
+  size: 'small',
+}
+
+export const WithHeadingAndSubheading = Template.bind({})
+WithHeadingAndSubheading.args = {
+  src: missing,
+  alt: 'Missing',
+  heading: 'Missing',
+  subheading: 'Missing',
 }
